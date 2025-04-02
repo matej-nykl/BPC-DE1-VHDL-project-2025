@@ -27,6 +27,9 @@ Describe your implementation. Put a descriptive top-level schematic of your appl
 
 ## Software description
 
+![adc-diagram](diagram.jpg)
+
+
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
 
 ### Component(s) simulations
