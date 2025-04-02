@@ -1,9 +1,9 @@
 ### Team members
 
-* Member 1 (responsible for ...)
-* Member 2 (responsible for ...)
-* Member 3 (responsible for ...)
-* Member 4 (responsible for ...)
+* Šimon Navrátil (responsible for ...)
+* Petr Tomeček (responsible for ...)
+* Zdeněk Pospíšil (responsible for ...)
+* Matěj Nykl (responsible for ...)
 
 ### Abstract
 
