@@ -1,6 +1,6 @@
 ### Team members
 
-* Šimon Navrátil (responsible for ...)
+* Šimon Navrátil (Team Leader)
 * Petr Tomeček (responsible for ...)
 * Zdeněk Pospíšil (responsible for ...)
 * Matěj Nykl (responsible for ...)
