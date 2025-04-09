@@ -7,7 +7,7 @@
 
 ### Abstract
 
-This VHDL project runs on the Nexys A7-50T FPGA board. It reads the position of a potentiometer using the onboard Analog-to-Digital Converter (XADC) and displays the corresponding angle (0–180 degrees) on the 7-segment display. As the potentiometer is rotated, the display updates in real-time to reflect the current position in degrees.
+This VHDL project runs on the Nexys A7-50T FPGA board. It reads the position of a potentiometer using Analog-to-Digital Converter and displays the corresponding angle (0–180 degrees) on the 7-segment display. As the potentiometer is rotated, the display updates in real-time to reflect the current position in degrees.
 
 ## Hardware description of demo application
 
