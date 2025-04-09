@@ -7,36 +7,20 @@
 
 ### Abstract
 
-An abstract is a short summary of your project, usually about a paragraph (6-7 sentences, 150-250 words) long. A well-written abstract serves multiple purposes: (a) an abstract lets readers get the gist or essence of your project quickly; (b) an abstract prepares readers to follow the detailed information, description, and results in your report; (c) and, later, an abstract helps readers remember key points from your project.
-
-The main contributions of the project are:
-
-* ...
-* ...
-* ...
-
-[Photo(s) of your application with labels of individual parts.]
-
-[Link to A3 project poster.]
-
-[Optional: Link to your short video presentation.]
+This VHDL project runs on the Nexys A7-50T FPGA board. It reads the position of a potentiometer using the onboard Analog-to-Digital Converter (XADC) and displays the corresponding angle (0–180 degrees) on the 7-segment display. As the potentiometer is rotated, the display updates in real-time to reflect the current position in degrees.
 
 ## Hardware description of demo application
 
-Describe your implementation. Put a descriptive top-level schematic of your application.
+![adc-diagram](diagram.jpg)
 
 ## Software description
 
-![adc-diagram](diagram.jpg)
-
-
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
 
 ### Component(s) simulations
 
-Write descriptive text and put simulation screenshots of components you created during the project.
+
 
 ## References
 
-1. Put here the references and online tools you used.
+1. ...
 2. ...
