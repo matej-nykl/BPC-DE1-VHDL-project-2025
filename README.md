@@ -1,11 +1,10 @@
 # Potentiometer Angle Display for Nexys A7-50T
 
 ## Team Members
-- **Šimon Navrátil** (Team Leader) - System architecture and integration
-- **Petr Tomeček** - XADC interface implementation
-- **Zdeněk Pospíšil** - 7-segment display controller
-- **Matěj Nykl** - Angle conversion algorithm
-
+- **Šimon Navrátil** - 7 segment implemetatation
+- **Petr Tomeček** - Angle conversion algorithm + Bugfixes
+- **Zdeněk Pospíšil** - Circuit integration specialist
+- **Matěj Nykl** - XADC interface implementation
 ## Abstract
 This VHDL project implements a real-time potentiometer angle measurement system on the Nexys A7-50T FPGA board. The system:
 - Reads analog voltage from a potentiometer using the Xilinx XADC (Analog-to-Digital Converter)
@@ -54,12 +53,10 @@ This VHDL project implements a real-time potentiometer angle measurement system 
 ![XADC Simulation](simulation_xadc.png)
 *Figure 1: XADC interface simulation showing analog-to-digital conversion*
 
-![Display Simulation](simulation_display.png)
-*Figure 2: Display controller simulation showing BCD conversion*
 
 ## References
 1. Nexys A7 Reference Manual, Digilent Inc.
 2. Xilinx 7 Series FPGAs XADC User Guide (UG480)
 3. VHDL Programming by Example, Douglas Perry
-4. [Project GitHub Repository](https://github.com/your-repo/potentiometer-angle-display)
+
 
