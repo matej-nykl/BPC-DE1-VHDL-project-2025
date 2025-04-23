@@ -11,7 +11,7 @@ This VHDL project runs on the Nexys A7-50T FPGA board. It reads the position of 
 
 ## Hardware description of demo application
 
-![adc-diagram](diagram.jpg)
+![adc-diagram](Top_Level.png)
 
 ## Software description
 
