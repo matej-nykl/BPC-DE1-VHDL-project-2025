@@ -77,6 +77,7 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
 Never exceed 1V on XA_P/XA_N inputs!
 ### Voltage divider
 This circuit ensures safe analog voltage measurement via the XADC while protecting the FPGA from overvoltage
+
 ![Voltage divider](schematic-connections.png)
 ## Simulation Results
 ![XADC Simulation](simulation_xadc.png)
