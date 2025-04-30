@@ -3,7 +3,7 @@
 ## Team Members
 - **Šimon Navrátil** - 7 segment implemetatation
 - **Petr Tomeček** - Angle conversion algorithm + Bugfixes
-- **Zdeněk Pospíšil** - Circuit integration specialist
+- **Zdeněk Pospíšil** - Circuit integration
 - **Matěj Nykl** - XADC interface implementation
 ## Abstract
 This VHDL project implements a real-time potentiometer angle measurement system on the Nexys A7-50T FPGA board. The system:
