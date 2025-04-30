@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.2 (64-bit)
+# SW Build 6060944 on Thu Mar 06 19:10:09 MST 2025
+# IP Build 6050500 on Thu Mar  6 23:33:39 MST 2025
+# SharedData Build 6060542 on Thu Mar 06 10:31:07 MST 2025
+# Start of session at: Wed Apr 23 16:33:15 2025
+# Process ID         : 2455
+# Current directory  : /home/matteo/ADC/ADC.runs/impl_1
+# Command line       : vivado -log potentiometer_angle_display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source potentiometer_angle_display.tcl -notrace
+# Log file           : /home/matteo/ADC/ADC.runs/impl_1/potentiometer_angle_display.vdi
+# Journal file       : /home/matteo/ADC/ADC.runs/impl_1/vivado.jou
+# Running On         : fedora
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 400.000 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16425 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25015 MB
+# Available Virtual  : 20792 MB
+#-----------------------------------------------------------
+source potentiometer_angle_display.tcl -notrace

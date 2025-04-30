@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1745420794">
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="potentiometer_angle_display_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="potentiometer_angle_display_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BGN" Name="potentiometer_angle_display.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="potentiometer_angle_display.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="potentiometer_angle_display.ltx"/>
+  <File Type="RBD_FILE" Name="potentiometer_angle_display.rbd"/>
+  <File Type="NPI_FILE" Name="potentiometer_angle_display.npi"/>
+  <File Type="RNPI_FILE" Name="potentiometer_angle_display.rnpi"/>
+  <File Type="CFI_FILE" Name="potentiometer_angle_display.cfi"/>
+  <File Type="RCFI_FILE" Name="potentiometer_angle_display.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="potentiometer_angle_display_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="potentiometer_angle_display_boot.pdi"/>
+  <File Type="RDI-RDI" Name="potentiometer_angle_display.vdi"/>
+  <File Type="PDI-FILE" Name="potentiometer_angle_display.pdi"/>
+  <File Type="BITSTR-MMI" Name="potentiometer_angle_display.mmi"/>
+  <File Type="BITSTR-BMM" Name="potentiometer_angle_display_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="potentiometer_angle_display.nky"/>
+  <File Type="BITSTR-RBT" Name="potentiometer_angle_display.rbt"/>
+  <File Type="BITSTR-MSK" Name="potentiometer_angle_display.msk"/>
+  <File Type="BG-BIN" Name="potentiometer_angle_display.bin"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="potentiometer_angle_display.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="potentiometer_angle_display_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="potentiometer_angle_display_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="potentiometer_angle_display_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="potentiometer_angle_display_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="potentiometer_angle_display_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="potentiometer_angle_display_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="potentiometer_angle_display_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="potentiometer_angle_display_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="potentiometer_angle_display.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="potentiometer_angle_display_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="potentiometer_angle_display_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="potentiometer_angle_display_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="potentiometer_angle_display_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="potentiometer_angle_display_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="potentiometer_angle_display_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="potentiometer_angle_display_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="potentiometer_angle_display_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="potentiometer_angle_display_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="potentiometer_angle_display_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="potentiometer_angle_display_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="potentiometer_angle_display_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="potentiometer_angle_display_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="potentiometer_angle_display_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="potentiometer_angle_display_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="potentiometer_angle_display_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="potentiometer_angle_display_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="potentiometer_angle_display_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="potentiometer_angle_display_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="potentiometer_angle_display_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="potentiometer_angle_display_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="potentiometer_angle_display_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="potentiometer_angle_display_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="potentiometer_angle_display_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="potentiometer_angle_display_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="potentiometer_angle_display_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="potentiometer_angle_display_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="potentiometer_angle_display_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="potentiometer_angle_display_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="potentiometer_angle_display_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="potentiometer_angle_display_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="potentiometer_angle_display_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="potentiometer_angle_display_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="potentiometer_angle_display_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="potentiometer_angle_display_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="potentiometer_angle_display_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="potentiometer_angle_display_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="potentiometer_angle_display_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="potentiometer_angle_display_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="potentiometer_angle_display_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="potentiometer_angle_display_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="potentiometer_angle_display_rqa_opted.pb"/>
+  <File Type="OPT-HWDEF" Name="potentiometer_angle_display.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="potentiometer_angle_display_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="potentiometer_angle_display_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="potentiometer_angle_display_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="potentiometer_angle_display_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="potentiometer_angle_display_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="potentiometer_angle_display_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="potentiometer_angle_display.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/angle_converter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/potentiometer_reader.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seven_segment_display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/toplevel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/binary_to_bcd.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="potentiometer_angle_display"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/nexysa7.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/potentiometer_angle_display.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
+</GenRun>

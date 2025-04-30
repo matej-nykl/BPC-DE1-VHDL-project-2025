@@ -1,0 +1,299 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.2 (64-bit)
+# SW Build 6060944 on Thu Mar 06 19:10:09 MST 2025
+# IP Build 6050500 on Thu Mar  6 23:33:39 MST 2025
+# SharedData Build 6060542 on Thu Mar 06 10:31:07 MST 2025
+# Start of session at: Wed Apr 23 17:06:36 2025
+# Process ID         : 36428
+# Current directory  : /home/matteo/ADC/ADC.runs/synth_1
+# Command line       : vivado -log potentiometer_angle_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source potentiometer_angle_display.tcl
+# Log file           : /home/matteo/ADC/ADC.runs/synth_1/potentiometer_angle_display.vds
+# Journal file       : /home/matteo/ADC/ADC.runs/synth_1/vivado.jou
+# Running On         : fedora
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 1077.174 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16425 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25015 MB
+# Available Virtual  : 19787 MB
+#-----------------------------------------------------------
+source potentiometer_angle_display.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/matteo/ADC/ADC.srcs/utils_1/imports/synth_1/potentiometer_angle_display.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/matteo/ADC/ADC.srcs/utils_1/imports/synth_1/potentiometer_angle_display.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top potentiometer_angle_display -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 36445
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1899.621 ; gain = 419.828 ; free physical = 1172 ; free virtual = 17871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'potentiometer_angle_display' [/home/matteo/ADC/ADC.srcs/sources_1/new/toplevel.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'potentiometer_reader' [/home/matteo/ADC/ADC.srcs/sources_1/new/potentiometer_reader.vhd:14]
+INFO: [Synth 8-3491] module 'xadc_wiz_0' declared at '/home/matteo/ADC/ADC.runs/synth_1/.Xil/Vivado-36428-fedora/realtime/xadc_wiz_0_stub.v:6' bound to instance 'xadc_inst' of component 'xadc_wiz_0' [/home/matteo/ADC/ADC.srcs/sources_1/new/potentiometer_reader.vhd:41]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [/home/matteo/ADC/ADC.runs/synth_1/.Xil/Vivado-36428-fedora/realtime/xadc_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (0#1) [/home/matteo/ADC/ADC.runs/synth_1/.Xil/Vivado-36428-fedora/realtime/xadc_wiz_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'potentiometer_reader' (0#1) [/home/matteo/ADC/ADC.srcs/sources_1/new/potentiometer_reader.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'angle_converter' [/home/matteo/ADC/ADC.srcs/sources_1/new/angle_converter.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'angle_converter' (0#1) [/home/matteo/ADC/ADC.srcs/sources_1/new/angle_converter.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_display' [/home/matteo/ADC/ADC.srcs/sources_1/new/seven_segment_display.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_display' (0#1) [/home/matteo/ADC/ADC.srcs/sources_1/new/seven_segment_display.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'potentiometer_angle_display' (0#1) [/home/matteo/ADC/ADC.srcs/sources_1/new/toplevel.vhd:25]
+WARNING: [Synth 8-7129] Port adc_value[3] in module angle_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adc_value[2] in module angle_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adc_value[1] in module angle_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adc_value[0] in module angle_converter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1972.559 ; gain = 492.766 ; free physical = 1121 ; free virtual = 17822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1990.371 ; gain = 510.578 ; free physical = 1121 ; free virtual = 17822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1990.371 ; gain = 510.578 ; free physical = 1121 ; free virtual = 17822
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1990.371 ; gain = 0.000 ; free physical = 1121 ; free virtual = 17822
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/matteo/ADC/ADC.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'reader/xadc_inst'
+Finished Parsing XDC File [/home/matteo/ADC/ADC.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'reader/xadc_inst'
+Parsing XDC File [/home/matteo/ADC/ADC.srcs/constrs_1/new/nexysa7.xdc]
+Finished Parsing XDC File [/home/matteo/ADC/ADC.srcs/constrs_1/new/nexysa7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/matteo/ADC/ADC.srcs/constrs_1/new/nexysa7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/potentiometer_angle_display_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/potentiometer_angle_display_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2140.121 ; gain = 0.000 ; free physical = 1114 ; free virtual = 17815
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2140.121 ; gain = 0.000 ; free physical = 1114 ; free virtual = 17815
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2140.121 ; gain = 660.328 ; free physical = 1128 ; free virtual = 17828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2148.125 ; gain = 668.332 ; free physical = 1128 ; free virtual = 17828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for reader/xadc_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2148.125 ; gain = 668.332 ; free physical = 1128 ; free virtual = 17828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2148.125 ; gain = 668.332 ; free physical = 1126 ; free virtual = 17827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 22    
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   15 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 15    
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP converter/angle0, operation Mode is: A2*(B:0x12d).
+DSP Report: register converter/angle0 is absorbed into DSP converter/angle0.
+DSP Report: operator converter/angle0 is absorbed into DSP converter/angle0.
+WARNING: [Synth 8-3917] design potentiometer_angle_display has port DP driven by constant 1
+WARNING: [Synth 8-3917] design potentiometer_angle_display has port AN[7] driven by constant 1
+WARNING: [Synth 8-3917] design potentiometer_angle_display has port AN[6] driven by constant 1
+WARNING: [Synth 8-3917] design potentiometer_angle_display has port AN[5] driven by constant 1
+WARNING: [Synth 8-3917] design potentiometer_angle_display has port AN[4] driven by constant 1
+WARNING: [Synth 8-3917] design potentiometer_angle_display has port AN[3] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2148.125 ; gain = 668.332 ; free physical = 1117 ; free virtual = 17822
+---------------------------------------------------------------------------------
+ Sort Area is  converter/angle0_0 : 0 0 : 362 362 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++----------------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                 | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|potentiometer_angle_display | A2*(B:0x12d) | 12     | 9      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2199.125 ; gain = 719.332 ; free physical = 1004 ; free virtual = 17722
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2219.156 ; gain = 739.363 ; free physical = 988 ; free virtual = 17706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2219.156 ; gain = 739.363 ; free physical = 988 ; free virtual = 17706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                 | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|potentiometer_angle_display | A'*B        | 12     | 9      | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |xadc_wiz_0    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |xadc_wiz |     1|
+|2     |BUFG     |     1|
+|3     |CARRY4   |     5|
+|4     |DSP48E1  |     1|
+|5     |LUT1     |     1|
+|6     |LUT2     |     3|
+|7     |LUT3     |     1|
+|8     |LUT4     |     2|
+|9     |LUT5     |     8|
+|10    |LUT6     |    31|
+|11    |FDRE     |    20|
+|12    |IBUF     |     3|
+|13    |OBUF     |    16|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.969 ; gain = 900.176 ; free physical = 869 ; free virtual = 17570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2379.969 ; gain = 750.426 ; free physical = 876 ; free virtual = 17576
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2379.977 ; gain = 900.176 ; free physical = 876 ; free virtual = 17576
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2379.977 ; gain = 0.000 ; free physical = 876 ; free virtual = 17576
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2435.996 ; gain = 0.000 ; free physical = 966 ; free virtual = 17666
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: dda38a10
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2435.996 ; gain = 964.207 ; free physical = 966 ; free virtual = 17666
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1600.772; main = 1600.772; forked = 270.049
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3058.695; main = 2436.000; forked = 910.566
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2460.008 ; gain = 0.000 ; free physical = 966 ; free virtual = 17666
+INFO: [Common 17-1381] The checkpoint '/home/matteo/ADC/ADC.runs/synth_1/potentiometer_angle_display.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file potentiometer_angle_display_utilization_synth.rpt -pb potentiometer_angle_display_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 23 17:06:54 2025...
