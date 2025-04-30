@@ -72,6 +72,10 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
    - Implements multiplexed display refresh
    - Handles active-low segment driving
 
+##IMPORTANT WARNING !
+Never exceed 1V on XA_P/XA_N inputs!
+
+
 ### Simulation Results
 ![XADC Simulation](simulation_xadc.png)
 *Figure 1: XADC interface simulation showing analog-to-digital conversion*
