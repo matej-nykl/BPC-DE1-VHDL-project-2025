@@ -79,9 +79,7 @@ Never exceed 1V on XA_P/XA_N inputs!
 This circuit ensures safe analog voltage measurement via the XADC while protecting the FPGA from overvoltage
 
 ![Voltage divider](schematic-connections.png)
-## Simulation Results
-![XADC Simulation](simulation_xadc.png)
-*Figure 1: XADC interface simulation showing analog-to-digital conversion*
+
 
 ## Video of the project
 [Click here !](https://youtu.be/ENF9i8tKyDE)
