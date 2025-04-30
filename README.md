@@ -12,6 +12,29 @@ This VHDL project implements a real-time potentiometer angle measurement system 
 - Displays the current angle on the 7-segment display
 - Updates the display continuously as the potentiometer is rotated
 
+## Board Overview: Nexys A7-50T
+
+The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, based on the **Xilinx Artix-7 XC7A50T** FPGA. It is designed for teaching and prototyping digital logic, embedded systems, and hardware design. Key features of the board include:
+
+- **FPGA:** Xilinx Artix-7 XC7A50T-1CSG324C
+- **Memory:** 512MB DDR3L RAM
+- **USB-JTAG and USB-UART interfaces**
+- **Peripherals:**
+  - 16 user switches
+  - 5 push buttons
+  - 16 user LEDs
+  - Four 7-segment displays
+  - VGA output
+  - Pmod connectors (for peripheral modules)
+- **Clock:** 100 MHz onboard oscillator
+- **Power supply via USB or external source**
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png">
+
+ <fig caption> <p align="center"> Nexys A7-50T
+
+
 ## Hardware Implementation
 
 ### Block Diagram
