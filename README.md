@@ -53,7 +53,7 @@ This VHDL project implements a real-time potentiometer angle measurement system 
 ![XADC Simulation](simulation_xadc.png)
 *Figure 1: XADC interface simulation showing analog-to-digital conversion*
 
-### Video of project
+### Video of the project
 [Click here !](https://youtu.be/ENF9i8tKyDE)
 
 ## References
