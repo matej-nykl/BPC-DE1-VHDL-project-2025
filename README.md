@@ -67,7 +67,7 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
    - Uses formula: `angle = (adc_value * 300) / 4095`
    - Provides 12-bit angle output
 
-3. **7-Segment Display Controller** (`seven_segment_display.vhd`)
+3. **7-Segment Display Controller** [seven_segment_display.vhd](project/ADC.srcs/sources_1/new/seven_segment_display.vhd)
    - Converts binary angle to BCD format
    - Implements multiplexed display refresh
    - Handles active-low segment driving
