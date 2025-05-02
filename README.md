@@ -73,7 +73,7 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
    - Handles active-low segment driving
 
 4.**Top Level** [(toplevel.vhd)](project/ADC.srcs/sources_1/new/toplevel.vhd)
-    - Connects all components together
+   - Connects all components together
     
 ## Wiring diagram
 ### IMPORTANT WARNING !
