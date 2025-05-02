@@ -54,6 +54,7 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
 | A14      | XA_N        | Potentiometer - input     |
 | T10-R10  | CA-CG       | 7-segment display segments|
 
+![PMOD](pmod.png)
 
 ## Software Implementation
 
