@@ -57,17 +57,17 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
 ## Software Implementation
 
 ### Main Components
-1. **Potentiometer Reader** (`potentiometer_reader.vhd`)
+1. **Potentiometer Reader** [(potentiometer_reader.vhd)](project/ADC.srcs/sources_1/new/potentiometer_reader.vhd)
    - Interfaces with XADC core
    - Reads 12-bit ADC values (0-4095)
    - Handles XADC configuration and data ready signals
 
-2. **Angle Converter** (`angle_converter.vhd`)
+2. **Angle Converter** [(angle_converter.vhd)](project/ADC.srcs/sources_1/new/angle_converter.vhd)
    - Converts raw ADC value to angle (0-300°)
    - Uses formula: `angle = (adc_value * 300) / 4095`
    - Provides 12-bit angle output
 
-3. **7-Segment Display Controller** [seven_segment_display.vhd](project/ADC.srcs/sources_1/new/seven_segment_display.vhd)
+3. **7-Segment Display Controller** [(seven_segment_display.vhd)](project/ADC.srcs/sources_1/new/seven_segment_display.vhd)
    - Converts binary angle to BCD format
    - Implements multiplexed display refresh
    - Handles active-low segment driving
@@ -82,7 +82,7 @@ This circuit ensures safe analog voltage measurement via the XADC while protecti
 
 
 ## Video of the project
-[Click here !](https://youtu.be/ENF9i8tKyDE)
+[Video of the project on Youtube](https://youtu.be/ENF9i8tKyDE)
 
 ## References
 1. Nexys A7 Reference Manual, Digilent Inc.
