@@ -84,6 +84,14 @@ This circuit ensures safe analog voltage measurement via the XADC while protecti
 
 ![Voltage divider](schematic-connections.png)
 
+## Input voltage measurements
+Documentation of voltage input measurements of the onboard XADC inside Vivado. Unfortunately, we could not display the 1V input value, due to the non-variable y-axis.
+<p align="center">
+![Potentiometer angle at 0°](potentiometer_0-dashboard.png)
+ <fig caption> <p align="center"> Potentiometer angle at 0°
+<p align="center">
+![Potentiometer angle at 50°](potentiometer_50-dashboard.png)
+ <fig caption> <p align="center"> Potentiometer angle at 50°
 
 ## Video of the project
 [Video of the project on Youtube](https://youtu.be/ENF9i8tKyDE)
