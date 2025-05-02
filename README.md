@@ -44,6 +44,7 @@ The **Nexys A7-50T** is an FPGA development board manufactured by Digilent, base
 1. **Nexys A7-50T FPGA Board**
 2. **Potentiometer** connected to JXADC header (Pins A13/A14)
 3. **7-segment display** for angle visualization
+4. **Voltage Divider** for safe input voltage (0-1V)
 
 ### Pin Connections
 | FPGA Pin | Signal      | Description               |
@@ -88,8 +89,8 @@ This circuit ensures safe analog voltage measurement via the XADC while protecti
 [Video of the project on Youtube](https://youtu.be/ENF9i8tKyDE)
 
 ## References
-1. Nexys A7 Reference Manual, Digilent Inc.
-2. Xilinx 7 Series FPGAs XADC User Guide (UG480)
-3. VHDL Programming by Example, Douglas Perry
+1. Nexys A7 Reference Manual, Digilent Inc. [Link to the site](https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?srsltid=AfmBOor2PdgU8TxAPeHtZ3KEre21VycXjoJT34BDJdfFQY4jLllKyd2z)
+2. Xilinx 7 Series FPGAs XADC User Guide (UG480) [Link to the site](https://docs.amd.com/r/en-US/ug480_7Series_XADC/7-Series-FPGAs-and-Zynq-7000-SoC-XADC-Dual-12-Bit-1-MSPS-Analog-to-Digital-Converter-User-Guide-UG480)
+3. VHDL Programming by Example, Douglas Perry [Link to the site](http://ebook.pldworld.com/_eBook/FPGA%EF%BC%8FHDL/-Eng-/VHDL.%20Programming%20by%20Example.%204th%20Ed%20(Douglas%20Perry).pdf)
 
 
